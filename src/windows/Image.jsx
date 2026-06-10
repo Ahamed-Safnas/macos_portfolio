@@ -8,7 +8,7 @@ const ImageFile = () => {
 
   if (!data) return null;
 
-  const src = data.imageUrl || data.image || data.src;
+  const src = data.imageUrl || data.image || data.src || data.img;
 
   return (
     <>
